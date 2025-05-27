@@ -1,5 +1,5 @@
-const { loadPackageDefinition } = require("@grpc/grpc-js");
-const { protoLoader } = require("@grpc/proto-loader");
+const grpc = require('@grpc/grpc-js');
+const protoLoader = require("@grpc/proto-loader");
 const path = require("path");
 
 function loadProto(serviceName) {
@@ -13,7 +13,7 @@ function loadProto(serviceName) {
         oneofs: true,
     });
 
-    return loadPackageDefinition(packageDefinition)[serviceName];
+    return grpc.loadPackageDefinition(packageDefinition)[serviceName];
 }
 
 module.exports = loadProto;

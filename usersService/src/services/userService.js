@@ -1,7 +1,7 @@
 const bcrypt = require('bcrypt');
-const Users = require('../database/models/usersModel');
+const Users = require('../database/usersModel');
 const catchAsync = require('../utils/catchAsync');
-const { getChannel, EXCHANGE_NAME } = require('../queue/config/connection');
+//const { getChannel, EXCHANGE_NAME } = require('../queue/config/connection');
 
 const CreateUser = catchAsync(async (call, callback) => {
     const { name, lastName, email, password, confirmationPassword, role } = call.request;
@@ -178,10 +178,12 @@ const ListUsers = catchAsync(async (call, callback) => {
     callback(null, { users: result });
 });
 
-module.exports = {
+const UsersService = {
     ListUsers,
     GetUser,
     DeleteUser,
     UpdateUser,
     CreateUser,
 };
+
+module.exports = UsersService;
