@@ -1,0 +1,1002 @@
+[
+  {
+    "_id": "6704a00c-2fc0-4597-b308-afe4dd394e0d",
+    "name": "Kevin",
+    "lastName": "Araya",
+    "email": "kevin.araya01@alumnos.ucn.cl",
+    "password": "$2b$12$Bk.HAT07GZ3OqRLTG2jFA.QVh.Y4.DclLlE0mpqp8R9W68jzp1bqK",
+    "role": "Administrador",
+    "createdAt": "2024-01-01T00:00:00",
+    "active": true
+  },
+  {
+    "_id": "d73be230-8ce1-4b98-acfa-79f1ab8d645c",
+    "name": "Martin",
+    "lastName": "Becerra",
+    "email": "martin.becerra@alumnos.ucn.cl",
+    "password": "$2b$12$Bk.HAT07GZ3OqRLTG2jFA.QVh.Y4.DclLlE0mpqp8R9W68jzp1bqK",
+    "role": "Administrador",
+    "createdAt": "2024-01-01T00:00:00",
+    "active": true
+  },
+  {
+    "_id": "773df3c9-3d9f-4e31-a373-0da5a4009964",
+    "name": "Megan",
+    "lastName": "Chang",
+    "email": "greenwilliam@yahoo.com",
+    "password": "$2b$12$/PvitaOSPNN310zO6wrxh.Dw/3gDs1MuAJwknKjW.u68RkSYgPYGu",
+    "role": "Cliente",
+    "createdAt": "2024-01-20T17:38:40",
+    "active": true
+  },
+  {
+    "_id": "5fa5d1fe-d678-4e6d-8add-01e40ebcb80a",
+    "name": "Brandy",
+    "lastName": "Odonnell",
+    "email": "donald19@archer-patel.org",
+    "password": "$2b$12$Xq11WxOvCpoA05.PCGiAE..fxMMnRjQax80BFRmLKJ31NP4ncXlNi",
+    "role": "Administrador",
+    "createdAt": "2022-08-21T14:16:45",
+    "active": true
+  },
+  {
+    "_id": "6daf911e-e1db-4abc-b5b7-a7b35b82d820",
+    "name": "Jessica",
+    "lastName": "Nolan",
+    "email": "wcastro@yahoo.com",
+    "password": "$2b$12$zj.n7EBBrnZ4BvDW8w6gRuI.Tv4DzI9AqarL3r7jgD62OTiKmukxa",
+    "role": "Cliente",
+    "createdAt": "2025-03-12T23:02:03",
+    "active": false
+  },
+  {
+    "_id": "8146618f-f779-4cb3-a403-0fe79b4fab99",
+    "name": "Robin",
+    "lastName": "Levy",
+    "email": "qgrimes@gmail.com",
+    "password": "$2b$12$OvY6flm6NpHx1GbVN0U99Ojlf62h6Z/xHVhuemvz/jx0fexFH6piS",
+    "role": "Administrador",
+    "createdAt": "2020-10-16T18:51:15",
+    "active": false
+  },
+  {
+    "_id": "7c64f9a6-858a-4a63-acb6-cafcad7c22ac",
+    "name": "Mary",
+    "lastName": "Page",
+    "email": "vclayton@cross.com",
+    "password": "$2b$12$LIl57kH.RxryXd.Lg4MxHOY2IUlfOAtuG3R5AoJR5v4hMjswo2Gzq",
+    "role": "Administrador",
+    "createdAt": "2024-10-29T04:40:04",
+    "active": true
+  },
+  {
+    "_id": "6a4e2cee-7ceb-4522-b581-656e445e862f",
+    "name": "John",
+    "lastName": "Ponce",
+    "email": "millerluke@hotmail.com",
+    "password": "$2b$12$DtQfjw/xLALIca3dYoOEdOHcqIDkIAx5zkDRhzlj6.fsLWA9YGX4i",
+    "role": "Cliente",
+    "createdAt": "2020-12-04T19:56:33",
+    "active": true
+  },
+  {
+    "_id": "61d2f6e3-c5fc-406f-b733-1695fa3c183b",
+    "name": "Andrea",
+    "lastName": "Mann",
+    "email": "tamaramorrison@hotmail.com",
+    "password": "$2b$12$Bv1ycSfNeuumNgWewsLWdO/rKT1v1VqzxEgeVvKlpn9/on/iT6o66",
+    "role": "Cliente",
+    "createdAt": "2023-10-14T12:47:12",
+    "active": true
+  },
+  {
+    "_id": "bf02e5f2-8e72-4f4e-b561-6127bb729cd3",
+    "name": "Caitlyn",
+    "lastName": "Cruz",
+    "email": "ivan20@zavala.com",
+    "password": "$2b$12$Ikf4ZgYBoN08t6ALdd5v/OoZJSQ.z.xCY5mROM44Ly6TO/n.S21sW",
+    "role": "Administrador",
+    "createdAt": "2020-04-30T01:19:26",
+    "active": true
+  },
+  {
+    "_id": "ad6abc36-48ec-44c8-b1d3-38854d718759",
+    "name": "Rachael",
+    "lastName": "Leblanc",
+    "email": "aimee33@hotmail.com",
+    "password": "$2b$12$f.4OaFzXosucBrD0iMAdEO7y60Pgve7O08MXUA3cq4vJ1W47w/zOy",
+    "role": "Cliente",
+    "createdAt": "2024-12-06T01:11:35",
+    "active": true
+  },
+  {
+    "_id": "ce81c4f3-1fce-4f3a-9b9f-2a655727be6c",
+    "name": "Shannon",
+    "lastName": "Keller",
+    "email": "nguyendarrell@hotmail.com",
+    "password": "$2b$12$2jQ97Wu99EgYH357GfB7YOvTX3taqCiM5plWDwc0MpG0tsKPxLZt.",
+    "role": "Cliente",
+    "createdAt": "2021-08-14T11:40:32",
+    "active": true
+  },
+  {
+    "_id": "38c29f6d-3c6b-40eb-ab36-a537d19eefd8",
+    "name": "Allen",
+    "lastName": "Nelson",
+    "email": "laura56@garcia.com",
+    "password": "$2b$12$O0.c4lVbu2BsFNyIPhHLput1Yy7xVNYDzIg0XmbaWUMNDc5zdufWC",
+    "role": "Administrador",
+    "createdAt": "2024-11-17T22:33:10",
+    "active": false
+  },
+  {
+    "_id": "587ce02c-ef82-4b51-ae33-4892bedda7fd",
+    "name": "Renee",
+    "lastName": "Ferguson",
+    "email": "martinezjacob@wilson.com",
+    "password": "$2b$12$MEve8DxFZ9CIPh14SeGmpebroINIs90OzHXhamQdEDGbIKb41hLlC",
+    "role": "Administrador",
+    "createdAt": "2025-02-24T05:39:48",
+    "active": true
+  },
+  {
+    "_id": "7c3977cb-7648-4381-b1ab-9eddb5a8e2c0",
+    "name": "James",
+    "lastName": "Arellano",
+    "email": "zclark@giles.net",
+    "password": "$2b$12$ysRDf4uZ7gxYpy252IpN2OJE3BhohtB1N1b8eUYsDUFcD02IgorbG",
+    "role": "Cliente",
+    "createdAt": "2025-04-12T03:17:17",
+    "active": true
+  },
+  {
+    "_id": "93e2de27-2dea-4347-b1b3-d6b3c30a75a1",
+    "name": "Mary",
+    "lastName": "Jones",
+    "email": "michael20@mcdonald.biz",
+    "password": "$2b$12$prob36tTu69OSpRn34WaIOgAzsY6AerFeZFwxQ/hhc7F3aOydKnTG",
+    "role": "Administrador",
+    "createdAt": "2022-03-19T04:56:28",
+    "active": true
+  },
+  {
+    "_id": "b7538916-8a36-4eae-baa6-45e684a14caa",
+    "name": "Rebecca",
+    "lastName": "Harrison",
+    "email": "tammybrown@moore.com",
+    "password": "$2b$12$835xdBqSQWNVhzefJezqVew62RhEdQge98mKoyqWOaAt7.5ipJkNi",
+    "role": "Cliente",
+    "createdAt": "2021-06-27T03:29:09",
+    "active": true
+  },
+  {
+    "_id": "d0d90c63-f96c-42f2-a51b-10eb54244a8f",
+    "name": "Thomas",
+    "lastName": "Ortiz",
+    "email": "paul42@hotmail.com",
+    "password": "$2b$12$iVOfvFdjAnOTJViJaxM1NOzZpbyFAy1Y8jMI8ixzH1HecFzhHtbRa",
+    "role": "Administrador",
+    "createdAt": "2023-11-23T19:32:25",
+    "active": false
+  },
+  {
+    "_id": "6f4a7fec-3807-4d3f-93b5-0cf779bc4667",
+    "name": "Christian",
+    "lastName": "Stevenson",
+    "email": "johnbenton@yahoo.com",
+    "password": "$2b$12$nt0pgR2nPrVVebvjU70Wju8EwynHX0VsaIQZhDeS2HsM4ru83ECny",
+    "role": "Cliente",
+    "createdAt": "2023-01-20T23:58:56",
+    "active": false
+  },
+  {
+    "_id": "61920779-5af9-4a99-a3e8-4e2a113b22fc",
+    "name": "Stacey",
+    "lastName": "Schultz",
+    "email": "paul61@wheeler.com",
+    "password": "$2b$12$UFksN0ezXbMW0vyNkgfai..c8PedOeRgby9enfBDwJGOLop2MIhq6",
+    "role": "Administrador",
+    "createdAt": "2022-01-13T20:08:53",
+    "active": true
+  },
+  {
+    "_id": "b7e28301-97de-42d7-b50f-a256d9bfea4b",
+    "name": "Dana",
+    "lastName": "Gray",
+    "email": "moralesjacqueline@yahoo.com",
+    "password": "$2b$12$k9y.3wa30oa0mHKH97Am6O3sFVRk0Enu9Ds4EhEgi/495csb6nEgm",
+    "role": "Administrador",
+    "createdAt": "2021-05-29T17:37:16",
+    "active": false
+  },
+  {
+    "_id": "ba5f9d09-2940-42c9-bcae-a72cad021cc1",
+    "name": "Caleb",
+    "lastName": "Miles",
+    "email": "modonnell@gmail.com",
+    "password": "$2b$12$2kDARYKpdiZCwpW6fxen4eEjQKhpY1w2u1hdeKG94nmYmsXyn8NGa",
+    "role": "Administrador",
+    "createdAt": "2024-03-16T14:45:24",
+    "active": true
+  },
+  {
+    "_id": "639e142d-4889-495d-afb4-12478f86e7f1",
+    "name": "Larry",
+    "lastName": "Owens",
+    "email": "amymccarty@gmail.com",
+    "password": "$2b$12$5hUGyoMn2gEzmgC5q3JLdewO.C1JvkM3SK.WW/zLlH7IgXUKHoucW",
+    "role": "Administrador",
+    "createdAt": "2020-02-15T18:17:43",
+    "active": false
+  },
+  {
+    "_id": "9095f3ac-1cd5-407f-8510-258451427d02",
+    "name": "Stefanie",
+    "lastName": "Butler",
+    "email": "alexisfischer@rice.com",
+    "password": "$2b$12$lmDRliXXRH4sFVnR/g2FquHTVYJZGQA4jSCPr2Olac8t5tO/4sT6.",
+    "role": "Cliente",
+    "createdAt": "2022-05-19T21:01:35",
+    "active": false
+  },
+  {
+    "_id": "843c3249-589f-4677-991f-7071c91224cf",
+    "name": "Tiffany",
+    "lastName": "Garcia",
+    "email": "johnsonrobin@gmail.com",
+    "password": "$2b$12$yhxKJHssQ4riX.qpYRUFPOHlmuQPa4LSH/AZ4PB.wEdV2RJnRkTQC",
+    "role": "Cliente",
+    "createdAt": "2021-02-18T12:33:26",
+    "active": false
+  },
+  {
+    "_id": "6dd182cf-e00f-4536-802c-b5f5acf74782",
+    "name": "Abigail",
+    "lastName": "Curtis",
+    "email": "wigginsjoshua@gmail.com",
+    "password": "$2b$12$geSNJ5ntM4FuavU4p8GNKOARMma0fGLfrvARH1Fnp3UjZCKGxzm42",
+    "role": "Administrador",
+    "createdAt": "2020-05-06T08:04:24",
+    "active": true
+  },
+  {
+    "_id": "6b1666ae-f8c7-4d40-a150-df6f3a659ac8",
+    "name": "Erin",
+    "lastName": "Grant",
+    "email": "mathissusan@hotmail.com",
+    "password": "$2b$12$6y8J8X6dsjRlx8/mfO1IpOhxC6oPh31LDhlJ15qAnsx25ZiaifYGK",
+    "role": "Cliente",
+    "createdAt": "2023-11-26T00:29:37",
+    "active": false
+  },
+  {
+    "_id": "f7cfd5fe-6e7a-4ea7-81ec-79a624fe14af",
+    "name": "Ryan",
+    "lastName": "Savage",
+    "email": "nicholascarter@hernandez.com",
+    "password": "$2b$12$IamrKojnoOlduEmtuIhsrucfbMEvYuyiYffqImFDwzUZduQIaJP.q",
+    "role": "Cliente",
+    "createdAt": "2020-10-18T03:20:19",
+    "active": true
+  },
+  {
+    "_id": "cb2b1628-15df-4d93-a831-df8fdbe498ec",
+    "name": "Kimberly",
+    "lastName": "Johnson",
+    "email": "edwardsilva@yahoo.com",
+    "password": "$2b$12$8kJMyOJOB7sf7w7kxa2ubeQg/7naDXPNbrADYi0Ofx2B6fWCXnw1W",
+    "role": "Cliente",
+    "createdAt": "2024-08-31T01:57:12",
+    "active": true
+  },
+  {
+    "_id": "304b256c-9840-42d2-b930-63a401e583e0",
+    "name": "Kelly",
+    "lastName": "Woods",
+    "email": "parkermelody@jones.biz",
+    "password": "$2b$12$MT4Wess9oCnLtSyN19lw1Ol8kILt10Adsb4UCJT7ssjmURCwwDVNi",
+    "role": "Administrador",
+    "createdAt": "2020-11-04T19:49:34",
+    "active": false
+  },
+  {
+    "_id": "e2a91a85-966e-4bfc-949d-8a1776fc9b1f",
+    "name": "Regina",
+    "lastName": "Wells",
+    "email": "mendozaholly@yahoo.com",
+    "password": "$2b$12$lzKyDHr.3qEgz7WQZQVC.uaH8IMDxr9J1QiID0PVLPHWHLt497Rdy",
+    "role": "Administrador",
+    "createdAt": "2022-07-26T23:31:41",
+    "active": true
+  },
+  {
+    "_id": "b18be156-686e-4eb8-89a5-a0a338db02c0",
+    "name": "Jessica",
+    "lastName": "Kline",
+    "email": "odrake@jones.com",
+    "password": "$2b$12$8GmpI1kL2IOkF16J0209tuEpYiBK0hCxB0XkssOukce1J9jh8yLD2",
+    "role": "Administrador",
+    "createdAt": "2020-07-09T00:08:00",
+    "active": true
+  },
+  {
+    "_id": "49de184c-2d09-438a-96e8-3ddc6614c73f",
+    "name": "Alan",
+    "lastName": "Long",
+    "email": "ymora@hotmail.com",
+    "password": "$2b$12$stHlkQ38hRZy5YuQxGnqIucQwi5ITCTsmH7OkRxQ30l41k.vHagr.",
+    "role": "Administrador",
+    "createdAt": "2023-08-07T08:00:19",
+    "active": true
+  },
+  {
+    "_id": "c6683880-00d6-475c-ad63-a7132be0d1d1",
+    "name": "Micheal",
+    "lastName": "Hinton",
+    "email": "ryanhoward@gmail.com",
+    "password": "$2b$12$2rkgJ1lVye.aHMNa51twZu4I4yjjOh1WYtFLzA8gFZmAT4VZTbkky",
+    "role": "Administrador",
+    "createdAt": "2024-06-21T15:39:41",
+    "active": false
+  },
+  {
+    "_id": "47a1bc37-d544-4bd2-8a7d-b9183fb31b87",
+    "name": "Karen",
+    "lastName": "Harris",
+    "email": "pscott@gmail.com",
+    "password": "$2b$12$A8M80H5E9nHsmLOgGoRUD.nricvDVFV312r8DBIiQq7zwgiLq3QcG",
+    "role": "Administrador",
+    "createdAt": "2025-04-20T21:11:52",
+    "active": true
+  },
+  {
+    "_id": "6d2a630a-a536-4dc5-916f-1d49d03d40ba",
+    "name": "Daniel",
+    "lastName": "Ellis",
+    "email": "danielcarlson@yahoo.com",
+    "password": "$2b$12$L33sX5EtX5zBEqwvyy8laOi3R0LCzDTSqG9g8TBt4d7B0S1u7mRqS",
+    "role": "Administrador",
+    "createdAt": "2024-10-17T23:44:19",
+    "active": false
+  },
+  {
+    "_id": "dd28cd9b-ffa2-40b2-bffa-c61b7f8c7ebd",
+    "name": "Danielle",
+    "lastName": "Henderson",
+    "email": "martha73@hotmail.com",
+    "password": "$2b$12$mXhQgz9S/PvJRP8RPNe9ze7Ii90kmE46vgtrYHMYLO.wcdzArL1TK",
+    "role": "Administrador",
+    "createdAt": "2020-01-31T03:37:55",
+    "active": true
+  },
+  {
+    "_id": "07e82c3b-4d9e-4658-af6c-5efe791934ef",
+    "name": "Janice",
+    "lastName": "Burgess",
+    "email": "austin24@hotmail.com",
+    "password": "$2b$12$MF.chPIQ3bg8IVDX02BsGuBd/z4y62HNR4vg5s8OwMyPrx4/.4/M6",
+    "role": "Administrador",
+    "createdAt": "2023-03-23T12:40:08",
+    "active": false
+  },
+  {
+    "_id": "336662be-67b3-4f21-949e-cb71a895d929",
+    "name": "Kelly",
+    "lastName": "Mccarthy",
+    "email": "marshzachary@gmail.com",
+    "password": "$2b$12$wJjehye/nENNrJxqHRG67eNhKnENDkS1B3UiZ7G/leT.BZZJktgw2",
+    "role": "Administrador",
+    "createdAt": "2021-11-30T07:58:32",
+    "active": true
+  },
+  {
+    "_id": "1082dde4-fbb8-4e2e-a3b5-2d32e9a07006",
+    "name": "Billy",
+    "lastName": "Smith",
+    "email": "michelle27@yahoo.com",
+    "password": "$2b$12$ekJe7Il98eFCR793XRM/2eAtfC0bj8FDz9myt/QeAwf3nVSimacWe",
+    "role": "Cliente",
+    "createdAt": "2024-07-04T01:19:20",
+    "active": false
+  },
+  {
+    "_id": "1fef4d7d-9756-4d95-9dda-9b634cf5e5a7",
+    "name": "Arthur",
+    "lastName": "Davis",
+    "email": "nbullock@nichols-george.info",
+    "password": "$2b$12$X7hFVkjf0lcf74GhX/9EnueDpXzShigkBYH72CyEzFkwblErMUx22",
+    "role": "Cliente",
+    "createdAt": "2025-03-02T05:15:25",
+    "active": false
+  },
+  {
+    "_id": "0fb1d877-102f-405a-a6f3-7dcc2576e5b6",
+    "name": "Jesus",
+    "lastName": "Hancock",
+    "email": "yangkevin@scott.com",
+    "password": "$2b$12$GUtMTsUj8xCLHsPJNT3tb.q22OVoEfaTfK04G3BjBKps/ANRR6UUm",
+    "role": "Cliente",
+    "createdAt": "2023-04-08T13:01:31",
+    "active": true
+  },
+  {
+    "_id": "775e7730-a45a-40a1-a3b8-6479057ae2b7",
+    "name": "Bryan",
+    "lastName": "Davidson",
+    "email": "justingreer@mcmahon.biz",
+    "password": "$2b$12$5L8evQCtry.rr7dxuJWWSOwgZ8fvZYp5Xs.g4VD.oycwzT2XsdUwa",
+    "role": "Administrador",
+    "createdAt": "2024-03-08T01:34:27",
+    "active": false
+  },
+  {
+    "_id": "a80a91fd-35f7-4f00-8139-d7bbd59f0d0a",
+    "name": "Jennifer",
+    "lastName": "Nunez",
+    "email": "robert97@ellis-garcia.com",
+    "password": "$2b$12$YmFgD/gc2GCrCNMyHo9k7OtY2b48JhJpxL2NTOQWRa53KE3YCxWpe",
+    "role": "Administrador",
+    "createdAt": "2020-04-10T20:48:01",
+    "active": false
+  },
+  {
+    "_id": "e2ff04a1-64c9-4935-b477-963e51c2721e",
+    "name": "Christina",
+    "lastName": "Soto",
+    "email": "james71@bishop.org",
+    "password": "$2b$12$dd5m80eVGzCnr.uVENaYt.cKJEQSGR3c1/2S4rg79yw6vVsg5VzpK",
+    "role": "Cliente",
+    "createdAt": "2021-01-21T06:15:12",
+    "active": false
+  },
+  {
+    "_id": "c1ef964c-dc74-40e1-8ec6-21a31c6c59e8",
+    "name": "Jennifer",
+    "lastName": "Phillips",
+    "email": "vlloyd@lucero.com",
+    "password": "$2b$12$2UUq2SE5KZvaysslc/RNh.xTk0iCx5WZ.zdWyFVHQG.AM9EOS3cY6",
+    "role": "Administrador",
+    "createdAt": "2023-05-02T23:36:23",
+    "active": false
+  },
+  {
+    "_id": "b4de99c0-e02f-436e-af43-97dfada972e8",
+    "name": "Nathan",
+    "lastName": "Lee",
+    "email": "huberrachel@gmail.com",
+    "password": "$2b$12$iiYVScS93atCCLvxua9k.u6p452Y.3.erpt7fNPh4fY2dauFyHoBq",
+    "role": "Cliente",
+    "createdAt": "2022-03-04T10:59:05",
+    "active": true
+  },
+  {
+    "_id": "b78849c1-f69d-4f60-9f4c-86360b627ded",
+    "name": "Shirley",
+    "lastName": "Estrada",
+    "email": "claytonweiss@chan.com",
+    "password": "$2b$12$L/.KNmYVEDJ1quuZ.N1/6ugWJ5R3C2G7iDC4I4Tld/tV3VmDfCVKG",
+    "role": "Administrador",
+    "createdAt": "2021-03-28T15:27:54",
+    "active": false
+  },
+  {
+    "_id": "40b07af9-1579-41c1-ac6f-5f0dbaee1e3a",
+    "name": "Patricia",
+    "lastName": "Henderson",
+    "email": "perrycory@navarro.info",
+    "password": "$2b$12$5HjMShsa4tHEdqInaMXEqudIQIOrxiX3.pzVwuRO7pItv8wNm1fnS",
+    "role": "Cliente",
+    "createdAt": "2023-07-19T15:13:43",
+    "active": true
+  },
+  {
+    "_id": "a0c44d19-4281-401b-914b-59f7347a7ddf",
+    "name": "Tyler",
+    "lastName": "Shields",
+    "email": "christian11@yahoo.com",
+    "password": "$2b$12$0jn09/oiAaOlTQ0nbJ3lKeSjmqvnfvTO72zclaiSw2toduxglSGNu",
+    "role": "Administrador",
+    "createdAt": "2022-12-09T06:15:14",
+    "active": true
+  },
+  {
+    "_id": "1a080409-ac9c-423b-9365-4a086f29d225",
+    "name": "Gregory",
+    "lastName": "Greer",
+    "email": "chad23@harris.com",
+    "password": "$2b$12$lW4qHD2G22X4R9pDsSwr5uBUR7n/051rJbx6riIRqpDWQGUzlpt4K",
+    "role": "Administrador",
+    "createdAt": "2022-06-30T03:16:15",
+    "active": true
+  },
+  {
+    "_id": "cbf3e73d-dd61-4ff1-a062-fb7e6045c0d1",
+    "name": "Hannah",
+    "lastName": "Cantu",
+    "email": "jacobrodriguez@zimmerman-scott.com",
+    "password": "$2b$12$l41rnPrLk0du/XMGzuEY3uaWVkEUKeYQ8r4mLk3yqfpkStVwjNkAK",
+    "role": "Administrador",
+    "createdAt": "2023-01-30T10:33:44",
+    "active": true
+  },
+  {
+    "_id": "cd50b660-7399-4786-9ddc-cd5571482d8d",
+    "name": "Thomas",
+    "lastName": "Carter",
+    "email": "brittanymiller@hotmail.com",
+    "password": "$2b$12$u.Z2GEI8/SJ0Mos2mNfzIuw4hR5ljGjhBmkQ90pWcvNdNqHnTcKNG",
+    "role": "Cliente",
+    "createdAt": "2021-04-30T22:15:26",
+    "active": true
+  },
+  {
+    "_id": "48593f8e-2af4-4cf9-a3ec-02b83c6e1903",
+    "name": "Rachael",
+    "lastName": "Bautista",
+    "email": "william32@watson-alvarado.com",
+    "password": "$2b$12$Ab1TnLXKRL1faNAcDauhnuI5dT.Y62U02JX5zJmgtGY7nYVvGvmKW",
+    "role": "Administrador",
+    "createdAt": "2023-05-08T11:56:37",
+    "active": true
+  },
+  {
+    "_id": "809b33cd-3eeb-45ef-a115-36fd33b51956",
+    "name": "Jacqueline",
+    "lastName": "Anderson",
+    "email": "jyang@hotmail.com",
+    "password": "$2b$12$VZrKK7GJXOErZV1u55E8Qex9/neyPzwLu8YLVsPYbgtBDMI8oYvGm",
+    "role": "Cliente",
+    "createdAt": "2022-07-14T22:35:11",
+    "active": false
+  },
+  {
+    "_id": "6a73f0b2-11b9-4a4e-9bda-4560ce1b90cc",
+    "name": "Michael",
+    "lastName": "Wright",
+    "email": "bennettalan@hotmail.com",
+    "password": "$2b$12$3jfB7MIzsXy8yogSmG3Us.eoBaUQVM7..o1Erb/OGmoStcC861c7O",
+    "role": "Cliente",
+    "createdAt": "2023-10-03T01:31:05",
+    "active": true
+  },
+  {
+    "_id": "e78e2a85-f2d0-45ff-a80f-1f02369b5742",
+    "name": "Nathan",
+    "lastName": "Farley",
+    "email": "laurahill@jacobs.biz",
+    "password": "$2b$12$5wgHgkRU6jviJdFiRuxvZO1RQzxnNx9SQMEhcOBDxJl.BgvftYDqe",
+    "role": "Administrador",
+    "createdAt": "2023-08-03T04:33:08",
+    "active": false
+  },
+  {
+    "_id": "7d68be30-1b85-40ea-be0a-281f908fbb5f",
+    "name": "Gregg",
+    "lastName": "Chung",
+    "email": "michaelwelch@gmail.com",
+    "password": "$2b$12$ihp3oPgXMuGuQ53zPDpZMePM7Fp4wEC/OnduecmpE1IJRisP4495a",
+    "role": "Cliente",
+    "createdAt": "2021-09-24T16:29:30",
+    "active": true
+  },
+  {
+    "_id": "70636580-c2cb-4d31-a404-51b46dbf5df9",
+    "name": "Aaron",
+    "lastName": "Hale",
+    "email": "robinsondanny@hotmail.com",
+    "password": "$2b$12$eIYuieUQWWR58YgQlIq4suTRu0ie/MuPXIbHCdAscjrV/MZ4/BNHG",
+    "role": "Cliente",
+    "createdAt": "2024-08-20T21:39:48",
+    "active": false
+  },
+  {
+    "_id": "042535f2-3c17-45d7-a405-7199b48c4342",
+    "name": "Eric",
+    "lastName": "Mccarthy",
+    "email": "gregorykathleen@gmail.com",
+    "password": "$2b$12$KWXrKhkQSakEDC3XPf2fhuACIgO0W1c75x8J4QAiQcMCh7lVlv88q",
+    "role": "Cliente",
+    "createdAt": "2022-05-20T04:54:12",
+    "active": false
+  },
+  {
+    "_id": "921d9c3a-c4f2-4026-a5a9-611c3c4d088a",
+    "name": "Tracey",
+    "lastName": "Martinez",
+    "email": "scottalicia@mckinney.com",
+    "password": "$2b$12$K4eFTPHzuRC3Nu3lEwDCxuhdkocy2qkHSF97fgq7S9lJPAbN5g55K",
+    "role": "Cliente",
+    "createdAt": "2021-09-01T01:07:21",
+    "active": false
+  },
+  {
+    "_id": "373ff94f-e2d9-487c-a110-447955b9beb9",
+    "name": "Christopher",
+    "lastName": "Jones",
+    "email": "amanda18@gmail.com",
+    "password": "$2b$12$g0OgPiAqSPD64b26n56iMuT4KhUfe90G6z.ABmwP3rtfQ3ofh2te6",
+    "role": "Administrador",
+    "createdAt": "2020-07-30T13:22:46",
+    "active": false
+  },
+  {
+    "_id": "8b8b3790-5493-4bf7-a95f-76d781a00f82",
+    "name": "Michelle",
+    "lastName": "Campbell",
+    "email": "amandajenkins@stephens.com",
+    "password": "$2b$12$4TFSGnDRl9oVDb.Dc/AddenvDjLBII.qYonJ2uS...3k007qylyIi",
+    "role": "Cliente",
+    "createdAt": "2023-10-06T09:05:47",
+    "active": true
+  },
+  {
+    "_id": "6b7ad339-3f27-4355-871b-a9222270bedd",
+    "name": "Ashley",
+    "lastName": "Taylor",
+    "email": "jamesbrittany@castro.com",
+    "password": "$2b$12$0VJxIM9vgnplIwmTNlKibe28PMOzQjNy2KvTJdXM0GuHf2.qNFRSi",
+    "role": "Cliente",
+    "createdAt": "2023-07-13T16:39:05",
+    "active": true
+  },
+  {
+    "_id": "5ddd7534-fcac-460b-abc0-ed0a8898ab8f",
+    "name": "Thomas",
+    "lastName": "Neal",
+    "email": "dpearson@yahoo.com",
+    "password": "$2b$12$wrEHUPX6y0m1mxFFHdP3hu.MEpayXFf5.M9e5VaNtEwuLGlC5suDe",
+    "role": "Cliente",
+    "createdAt": "2021-03-19T16:47:30",
+    "active": false
+  },
+  {
+    "_id": "fb4e70f6-2b9c-4647-bf54-22aa558efc6a",
+    "name": "Tyler",
+    "lastName": "Clay",
+    "email": "kellypeter@mathis.com",
+    "password": "$2b$12$S/u4jp71wVxhBUxWscBCY.eT5Isth4ukp4Ubp1tYQ68tDYzkgqe2u",
+    "role": "Cliente",
+    "createdAt": "2020-01-20T22:58:02",
+    "active": true
+  },
+  {
+    "_id": "bf6309f6-31f3-406d-81d8-d371df6e9b5a",
+    "name": "Blake",
+    "lastName": "Oliver",
+    "email": "jessica32@hotmail.com",
+    "password": "$2b$12$vOmXNSkHbi9ge30Gwr9RIeKxClVesufMWG8YRHarTFLE2VKdpqfDa",
+    "role": "Cliente",
+    "createdAt": "2021-08-17T01:13:44",
+    "active": true
+  },
+  {
+    "_id": "70874129-ab70-4954-9884-9f2d3be654dc",
+    "name": "Ryan",
+    "lastName": "Moran",
+    "email": "markwong@hotmail.com",
+    "password": "$2b$12$Ec3MVoeMG.qk3KNmxH1qvOW0jhoxgbYgprF9E6zphEH7r/3vosZWu",
+    "role": "Cliente",
+    "createdAt": "2021-04-04T21:07:05",
+    "active": false
+  },
+  {
+    "_id": "9cb9f220-8109-46b6-8d35-dbb344953ae7",
+    "name": "Sarah",
+    "lastName": "Hernandez",
+    "email": "jasonlopez@yahoo.com",
+    "password": "$2b$12$ET/pXg6xSacHgP4M42KBw.dTTAeAscLZiKzPXeEIPrOXb1GAXTBy2",
+    "role": "Cliente",
+    "createdAt": "2023-08-20T13:04:00",
+    "active": false
+  },
+  {
+    "_id": "4530d5b6-6e0e-48a0-804c-93a320780b4a",
+    "name": "Perry",
+    "lastName": "Robinson",
+    "email": "lbentley@williams.com",
+    "password": "$2b$12$Z8UZ6pV6HCMt6xzBvYSOg.29tfobUOuhcr6RLTzzhztHS0FtHCQEq",
+    "role": "Administrador",
+    "createdAt": "2023-02-03T16:44:20",
+    "active": true
+  },
+  {
+    "_id": "6b65e364-8cf6-4db6-a312-93d63cbd9b83",
+    "name": "Julia",
+    "lastName": "Byrd",
+    "email": "cheyenne84@jenkins-brown.net",
+    "password": "$2b$12$APb09htBv/GldrZVwLr0dOmByB5N1jt2tDutyM2iwtL5opsS/mhtK",
+    "role": "Cliente",
+    "createdAt": "2024-12-09T23:31:39",
+    "active": false
+  },
+  {
+    "_id": "117bd9ff-dd7d-4d58-a619-8497f5c0c894",
+    "name": "Tracy",
+    "lastName": "Padilla",
+    "email": "joseph00@bailey.com",
+    "password": "$2b$12$xzhSzDLIUepgsAaO4fMhQ.yD/k0jDKA7NJ/eAWbkKl4MsZgU6Uv46",
+    "role": "Administrador",
+    "createdAt": "2020-07-16T21:04:54",
+    "active": false
+  },
+  {
+    "_id": "20bffd1c-8d50-4d0f-8e83-d867221aa96f",
+    "name": "Erin",
+    "lastName": "Arellano",
+    "email": "shawnmorgan@gmail.com",
+    "password": "$2b$12$n2ShstKVu9zEaQXtnPDa4OEz1Hc2.5bSHVgQ66eExuLRIltfUPDB2",
+    "role": "Administrador",
+    "createdAt": "2022-09-18T04:36:46",
+    "active": true
+  },
+  {
+    "_id": "387c5df5-c825-4a89-bdb3-fb1eb0c8e8ed",
+    "name": "Amanda",
+    "lastName": "Barry",
+    "email": "boydjames@gmail.com",
+    "password": "$2b$12$sl4L7RRw6UEpZe/WaEj2iuSjm3eevH5VAG/nNDUbJGQQrslLq.DS2",
+    "role": "Administrador",
+    "createdAt": "2024-06-17T14:38:36",
+    "active": true
+  },
+  {
+    "_id": "850f91e7-1bd5-4a2a-9fb7-8b11207b50c0",
+    "name": "Jacob",
+    "lastName": "Harris",
+    "email": "zachary64@yahoo.com",
+    "password": "$2b$12$UzntIab292OPXUXssEDQbOLEqBcvf7ITOi44lJ2tRQ980e9hvgUzq",
+    "role": "Cliente",
+    "createdAt": "2022-01-15T12:51:50",
+    "active": true
+  },
+  {
+    "_id": "c4e63031-ca6a-4f23-adc6-f27e6b77e035",
+    "name": "Kevin",
+    "lastName": "Arnold",
+    "email": "csimpson@stark.info",
+    "password": "$2b$12$TSKo8PQcz5S41jaWSgBKMOAWEjQjT45zXr5.oH.4A2lPnXDqaDBD2",
+    "role": "Cliente",
+    "createdAt": "2023-09-29T08:52:34",
+    "active": true
+  },
+  {
+    "_id": "191d406d-9b7e-406b-932c-988b7b0579b9",
+    "name": "Christopher",
+    "lastName": "Allen",
+    "email": "nhenson@salazar-meyers.net",
+    "password": "$2b$12$UY8LsxjDZGZbEWdC7cgA8esx.Fgs2A1IQD1XHTb0wxODmRoqhseI.",
+    "role": "Cliente",
+    "createdAt": "2020-05-02T06:16:27",
+    "active": true
+  },
+  {
+    "_id": "1d1ea8c1-2fd9-4d91-8ddb-ae9578ad1723",
+    "name": "John",
+    "lastName": "Robinson",
+    "email": "luis61@hotmail.com",
+    "password": "$2b$12$ZJn1dSB//GX.KVXkn2GqQOKpPygkgal9jZgBqvgAu9hJWs08Rgcce",
+    "role": "Cliente",
+    "createdAt": "2025-03-10T11:00:38",
+    "active": false
+  },
+  {
+    "_id": "ae79cedd-af77-4524-a141-1d2508d1a12a",
+    "name": "Kristina",
+    "lastName": "Dawson",
+    "email": "qherrera@yahoo.com",
+    "password": "$2b$12$oSlhVZsAbnTkMVo3P5ktM.pKp1m6Ex4cTfV1xRZTWCJJDXIGNAwCK",
+    "role": "Administrador",
+    "createdAt": "2020-02-21T10:41:08",
+    "active": true
+  },
+  {
+    "_id": "d003aea2-e0b4-43f0-b6f8-f57efb8cb864",
+    "name": "Christina",
+    "lastName": "Joseph",
+    "email": "swright@osborn.biz",
+    "password": "$2b$12$MvC684WumoX9TQaV5xH/Ze84bNwMuDyVd4mzng7kgdRcFhlBtXIY.",
+    "role": "Administrador",
+    "createdAt": "2021-01-13T09:36:39",
+    "active": true
+  },
+  {
+    "_id": "d368911a-63ea-4ab0-9f05-65c1944196bc",
+    "name": "Deanna",
+    "lastName": "Wilson",
+    "email": "emilywarner@hotmail.com",
+    "password": "$2b$12$XGm9PKPFXWUSUofEyY6HteqrebAzJDexm8EqPZ52MZYSrNiBsZfjq",
+    "role": "Cliente",
+    "createdAt": "2021-11-19T08:33:37",
+    "active": false
+  },
+  {
+    "_id": "9e109c4d-347e-4827-98d3-0bb6f59a3fa8",
+    "name": "Marie",
+    "lastName": "Allen",
+    "email": "jesus74@hotmail.com",
+    "password": "$2b$12$5jG2KkagIMX0cheTcM9bP.Bm5AnG8jDCN8gAfccZFVdD51qhqvtPW",
+    "role": "Administrador",
+    "createdAt": "2021-03-02T12:55:52",
+    "active": true
+  },
+  {
+    "_id": "75dcc421-b529-468d-bb65-49872aae0066",
+    "name": "Angela",
+    "lastName": "Murphy",
+    "email": "nataliemoore@dixon.com",
+    "password": "$2b$12$xHsQ9gKYGQqI3bYsbnAhQeqitSKjAbqLIEjp9HDNFowLwmR6oNATS",
+    "role": "Administrador",
+    "createdAt": "2024-03-23T07:25:26",
+    "active": false
+  },
+  {
+    "_id": "1dc2667b-336e-4a5a-b161-4d7a652bdc88",
+    "name": "Katrina",
+    "lastName": "Costa",
+    "email": "lisawolf@franklin-anderson.info",
+    "password": "$2b$12$8uaczHzzn8NhlEcBDz.qJeM1DPrImQrImxX5AdbSpw.tISVdxJlxy",
+    "role": "Administrador",
+    "createdAt": "2025-03-28T21:32:22",
+    "active": true
+  },
+  {
+    "_id": "b2963c9c-2546-4a77-a783-623daea38577",
+    "name": "Alicia",
+    "lastName": "Howard",
+    "email": "alexander38@hotmail.com",
+    "password": "$2b$12$0usg1JhpulnqusOMw.0tPuM3GyZRo74lHCQGs97ZeE6ULdMPF1M2u",
+    "role": "Administrador",
+    "createdAt": "2024-03-16T23:25:35",
+    "active": false
+  },
+  {
+    "_id": "e76119c6-5e6d-4e9c-b9e6-de3d925fa088",
+    "name": "Timothy",
+    "lastName": "Edwards",
+    "email": "derrick63@floyd-cruz.com",
+    "password": "$2b$12$2Xyb4RXeT8rPMfrnJU.bQeaU90S60W.ix.XNCgVLpSX2ls7oj2tyq",
+    "role": "Administrador",
+    "createdAt": "2020-04-28T22:57:01",
+    "active": true
+  },
+  {
+    "_id": "f585056d-c7a9-474b-8075-dfa21681b523",
+    "name": "Jessica",
+    "lastName": "Nixon",
+    "email": "qbarnett@hotmail.com",
+    "password": "$2b$12$44AqKtln0NVdUSH./0MRZeUrxBlb1dIiOL1OVrjxhru1mFg8UIbfq",
+    "role": "Administrador",
+    "createdAt": "2022-03-19T02:57:11",
+    "active": true
+  },
+  {
+    "_id": "417ff7fc-d5bf-4c8c-871b-4a4c6e11795c",
+    "name": "Emily",
+    "lastName": "Torres",
+    "email": "oconnoredward@gmail.com",
+    "password": "$2b$12$yTfibNwCJssD9j5nFtziWu0gfnEDwL/j1w5SF6GDjxV06zocOkNaK",
+    "role": "Cliente",
+    "createdAt": "2025-05-04T14:23:40",
+    "active": true
+  },
+  {
+    "_id": "b8fdd887-0089-4a0d-b0fc-f3d2d2d335c9",
+    "name": "Angel",
+    "lastName": "Williams",
+    "email": "carl05@henderson.biz",
+    "password": "$2b$12$cFTlcJ8o3pivy6X29FRRnO8ftQwzM5HkQsuCQfw7SvOBXC9rCzHfa",
+    "role": "Administrador",
+    "createdAt": "2023-01-17T09:02:05",
+    "active": true
+  },
+  {
+    "_id": "b8906cb8-c91a-40fd-a820-feee5880de0a",
+    "name": "Gregory",
+    "lastName": "Murphy",
+    "email": "qsmith@hotmail.com",
+    "password": "$2b$12$Y/mgh9Ngw9SzpVJH5V2zyOYJspyYIY16Lq59BUIPzRNdRudbRnL.u",
+    "role": "Cliente",
+    "createdAt": "2020-05-10T07:12:07",
+    "active": false
+  },
+  {
+    "_id": "81c3a229-09ba-4869-b07f-8059271b6d8a",
+    "name": "Sandra",
+    "lastName": "Ortiz",
+    "email": "aarontaylor@hotmail.com",
+    "password": "$2b$12$Vfh0J6q.AWR0BweyOG4Xm.wbzh97RknHpxdkN1A6DD7kWq4HkgHwe",
+    "role": "Administrador",
+    "createdAt": "2020-09-04T10:56:31",
+    "active": true
+  },
+  {
+    "_id": "8ae4b098-5e7d-4ca8-ae59-28959a24b49c",
+    "name": "John",
+    "lastName": "Clayton",
+    "email": "sonyafrye@newton.net",
+    "password": "$2b$12$C4NP9tdQgdeapFK8FYMRDOJEn6BFKZgkRLjkcXPDtH27drMF6VLJu",
+    "role": "Administrador",
+    "createdAt": "2020-08-31T20:32:15",
+    "active": false
+  },
+  {
+    "_id": "83337d7e-0d74-4636-bfe0-eb2d0fad86ef",
+    "name": "Sara",
+    "lastName": "Harper",
+    "email": "christinawilliams@yahoo.com",
+    "password": "$2b$12$23XIZuSjOqJC8z6xfMksVuixpBiyTZPiWeIxFZAIXUwJ07noEYGQS",
+    "role": "Cliente",
+    "createdAt": "2020-03-25T17:11:18",
+    "active": false
+  },
+  {
+    "_id": "e12030c7-1dd1-4f43-9b34-fb8c5e18ac2a",
+    "name": "Sarah",
+    "lastName": "Johnson",
+    "email": "kelly27@romero.biz",
+    "password": "$2b$12$DJ6aOWoRrHEYcL4oosmFv.5J7cmvTnYMtEgcSipTuukZIX3jf5tmq",
+    "role": "Cliente",
+    "createdAt": "2022-04-18T08:42:37",
+    "active": false
+  },
+  {
+    "_id": "0a22be88-ef4c-4876-9d18-a943eb166f14",
+    "name": "Sheryl",
+    "lastName": "Smith",
+    "email": "xmadden@hotmail.com",
+    "password": "$2b$12$UmRoelBhpPSPIavcykK4FevJk9RZRS3aBdqnCM6EYMqfkX9nj6QE2",
+    "role": "Cliente",
+    "createdAt": "2020-04-28T23:55:06",
+    "active": false
+  },
+  {
+    "_id": "635eedc9-21dd-42eb-92f3-f97e7317602c",
+    "name": "Randall",
+    "lastName": "Wilson",
+    "email": "rwilliams@hotmail.com",
+    "password": "$2b$12$SQTTvkQZXD.R3ZIe.H0NwuNOsnuuwCf4PXSa5Af/yN3Jnn12MG9hy",
+    "role": "Administrador",
+    "createdAt": "2022-02-27T21:38:46",
+    "active": false
+  },
+  {
+    "_id": "70863fba-a7b9-4c29-93f5-621d07fe92d1",
+    "name": "Erin",
+    "lastName": "Park",
+    "email": "kathrynblack@yahoo.com",
+    "password": "$2b$12$N2lG21t0VKsIBEdjWWoEmuIPD3ECAvwB4aLLodW0d2Ybt6DJR/fKu",
+    "role": "Cliente",
+    "createdAt": "2021-10-11T05:54:46",
+    "active": true
+  },
+  {
+    "_id": "c03da239-a229-48eb-a861-1ed97eb574b2",
+    "name": "Ashlee",
+    "lastName": "Rivera",
+    "email": "francisco25@wilkins.com",
+    "password": "$2b$12$DKpBbAbK4sFVSLtq6NAMdupG5iEZwa.KDlNvAa9FwJv83mPUEeK2i",
+    "role": "Cliente",
+    "createdAt": "2023-02-02T09:38:19",
+    "active": true
+  },
+  {
+    "_id": "78296df8-1249-47cc-9349-de1013f9820e",
+    "name": "Connie",
+    "lastName": "Morris",
+    "email": "aarcher@gmail.com",
+    "password": "$2b$12$zhYU./n8AMMI3nvbntRfweecdu/LR.VzTz3yE2sj35jhi7E.iyE/a",
+    "role": "Administrador",
+    "createdAt": "2023-10-04T21:37:20",
+    "active": true
+  },
+  {
+    "_id": "540d2f10-a888-4363-9ca8-a8e0e134685c",
+    "name": "Matthew",
+    "lastName": "Smith",
+    "email": "julie31@hotmail.com",
+    "password": "$2b$12$FvFf/8h1nlorR4VWIy9B1etdi1DxauFjATHq.ZosQF16lT0Mvc86e",
+    "role": "Cliente",
+    "createdAt": "2022-05-15T21:54:56",
+    "active": true
+  }
+]
