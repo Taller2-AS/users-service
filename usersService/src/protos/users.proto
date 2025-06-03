@@ -11,7 +11,7 @@ service Users {
 }
 
 message User {
-    int32 id = 1;
+    string id = 1;
     string name = 2;
     string lastName = 3;
     string email = 4;
@@ -20,8 +20,17 @@ message User {
     string createdAt = 7;
 }
 
+message UserSafe {
+    string id = 1;
+    string name = 2;
+    string lastName = 3;
+    string email = 4;
+    string role = 5;
+    string createdAt = 6;
+}
+
 message UserInput {
-    int32 id = 1;
+    string id = 1;
     string name = 2;
     string lastName = 3;
     string email = 4;
@@ -31,18 +40,18 @@ message UserInput {
 }
 
 message UserUpdateInput {
-    int32 id = 1;
+    string id = 1;
     string name = 2;
     string lastName = 3;
     string email = 4;
 }
 
 message UserId {
-  int32 id = 1;
+  string id = 1;
 }
 
 message UserList {
-  repeated User users = 1;
+  repeated UserSafe users = 1;
 }
 
 message Empty {}

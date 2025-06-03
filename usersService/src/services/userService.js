@@ -166,15 +166,14 @@ const ListUsers = catchAsync(async (call, callback) => {
 
     const users = await Users.find(query);
 
-    const result = users.map(({ id, name, lastName, email, role, createdAt }) => ({
-        id,
-        name,
-        lastName,
-        email,
-        role,
-        createdAt
+    const result = users.map(user => ({
+        id: user._id.toString(),
+        name: user.name,
+        lastName: user.lastName,
+        email: user.email,
+        role: user.role,
+        createdAt: user.createdAt.toISOString(),
     }));
-
     callback(null, { users: result });
 });
 
