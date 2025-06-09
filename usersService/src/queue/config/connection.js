@@ -1,33 +1,20 @@
-const { connect } = require('amqplib');
+const amqp = require('amqplib');
 
 let channel;
 
-const QUEUES = ["user-create-queue1", "user-create-queue2"];
-const EXCHANGE_NAME = ["user-created-exchange"];
+const connectToRabbitMQ = async () => {
+  const connection = await amqp.connect(process.env.RABBITMQ_URL);
+  channel = await connection.createChannel();
+  return channel;
+};
 
-async function connectToRabbitMQ() {
-    try {
-        const connection = await connect(process.env.RABBITMQ_URL);
-        channel = await connection.createChannel();
+const getChannel = async () => {
+  if (!channel) {
+    channel = await connectToRabbitMQ();
+  }
+  return channel;
+};
 
-        await channel.assertExchange(EXCHANGE_NAME, 'fanout', { durable: true });
-        await Promise.all(
-            QUEUES.map(async (queue) => {
-                await channel.assertQueue("user-create-queue1", { durable: true });
-                await channel.bindQueue("user-create-queue1", EXCHANGE_NAME, '');
-            }
-        ));
-    } catch (error) {
-        console.error('Error al conectar a RabbitMQ:', error);
-        throw error;
-    }
-}
-
-async function getChannel() {
-    if (!channel) {
-        await connectToRabbitMQ();
-    }
-    return channel;
-}
-
-module.exports = getChannel;
+module.exports = {
+  getChannel
+};
