@@ -2,6 +2,7 @@ const bcrypt = require('bcrypt');
 const Users = require('../database/usersModel');
 const catchAsync = require('../utils/catchAsync');
 const { getChannel, EXCHANGE_NAME } = require('../queue/config/connection');
+const publishLog = require('../queue/publisher/logPublisher');
 
 const CreateUser = catchAsync(async (call, callback) => {
     const { userId, name, lastName, email, password, confirmationPassword, role } = call.request;
@@ -46,12 +47,24 @@ const CreateUser = catchAsync(async (call, callback) => {
       '',
       Buffer.from(JSON.stringify({
         event: 'USER_CREATED',
-        videoId: newUser.id.toString(),
+        id: newUser.id.toString(),
+        name: newUser.name,
+        lastName: newUser.lastName,
         email: newUser.email,
+        role: newUser.role,
         timestamp: new Date().toISOString()
       }))
     );
-    //Revisar 
+
+    await publishLog('action', {
+      userId: null,
+      email: '',
+      method: 'CreateUser',
+      url: '/usuarios',
+      action: 'CREAR USUARIO',
+      date: new Date().toISOString()
+    });
+
     callback(null, {
         id: newUser.id.toString(),
         name: newUser.name,
@@ -75,6 +88,15 @@ const GetUser = catchAsync(async (call, callback) => {
     if (authenticatedUser.role !== 'Administrador' && authenticatedUser.id !== user.id) {
         return callback(new Error('No tienes permiso para ver este usuario'));
     }
+
+    await publishLog('action', {
+      userId: userId,
+      email: '',
+      method: 'GetUser',
+      url: `/usuarios/${id}`,
+      action: 'OBTENER USUARIO',
+      date: new Date().toISOString()
+    });
 
     callback(null, {
         id: user.id.toString(),
@@ -123,6 +145,15 @@ const UpdateUser = catchAsync(async (call, callback) => {
       }))
     );
 
+    await publishLog('action', {
+      userId: userId,
+      email: '',
+      method: 'UpdateUser',
+      url: `/usuarios/${id}`,
+      action: 'ACTUALIZAR USUARIO',
+      date: new Date().toISOString()
+    });
+
     callback(null, {
       id: user.id.toString(),
       name: user.name,
@@ -166,6 +197,15 @@ const DeleteUser = catchAsync(async (call, callback) => {
       }))
     );
 
+    await publishLog('action', {
+      userId: userId,
+      email: '',
+      method: 'DeleteUser',
+      url: `/usuarios/${id}`,
+      action: 'ELIMINAR USUARIO',
+      date: new Date().toISOString()
+    });
+
     callback(null, {});
 });
 
@@ -205,6 +245,15 @@ const ListUsers = catchAsync(async (call, callback) => {
         role: user.role,
         createdAt: user.createdAt.toISOString(),
     }));
+
+    await publishLog('action', {
+      userId: userId,
+      email: '',
+      method: 'GetUsers',
+      url: `/usuarios`,
+      action: 'OBTENER USUARIOS',
+      date: new Date().toISOString()
+    });
 
     callback(null, { users: result });
 });
