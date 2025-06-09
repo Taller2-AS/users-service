@@ -9,8 +9,17 @@ const usersConsumer = async () => {
     try {
       const content = JSON.parse(msg.content.toString());
 
-      console.log('📨 Evento recibido desde user-events-queue:');
-      console.log(content);
+      if (content.event !== 'USER_CREATED') {
+        console.log('Usuario creado:', content.videoId);
+      }
+
+      if (content.event !== 'USER_UPDATED') {
+        console.log('Usuario actualizado:', content.videoId);
+      }
+
+      if (content.event !== 'USER_DELETED') {
+        console.log('Usuario eliminado:', content.videoId);
+      }
 
       channel.ack(msg);
     } catch (error) {

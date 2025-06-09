@@ -1,7 +1,6 @@
 const { connect } = require('mongoose');
 const { config } = require('dotenv');
 const { Server, ServerCredentials } = require('@grpc/grpc-js');
-const insertSeedUsers = require('./src/database/seeders/seed');
 const UsersService = require('./src/services/userService');
 const loadProto = require('./src/utils/loadProto');
 
@@ -19,7 +18,6 @@ const DB = process.env.MONGO_DATABASE.replace(
 
 connect(DB).then(async () => {
   console.log('Conexión a la base de datos exitosa');
-  await insertSeedUsers();
 });
 
 const usersProto = loadProto('users');
