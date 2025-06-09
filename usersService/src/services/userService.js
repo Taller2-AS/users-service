@@ -140,7 +140,11 @@ const UpdateUser = catchAsync(async (call, callback) => {
       '',
       Buffer.from(JSON.stringify({
         event: 'USER_UPDATED',
-        userId: id,
+        id: newUser.id.toString(),
+        name: newUser.name,
+        lastName: newUser.lastName,
+        email: newUser.email,
+        role: newUser.role,
         timestamp: new Date().toISOString()
       }))
     );
@@ -192,7 +196,7 @@ const DeleteUser = catchAsync(async (call, callback) => {
       '',
       Buffer.from(JSON.stringify({
         event: 'USER_DELETED',
-        userId: id,
+        id: newUser.id.toString(),
         timestamp: new Date().toISOString()
       }))
     );
