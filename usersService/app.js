@@ -3,6 +3,7 @@ const { config } = require('dotenv');
 const { Server, ServerCredentials } = require('@grpc/grpc-js');
 const UsersService = require('./src/services/userService');
 const loadProto = require('./src/utils/loadProto');
+const initializeQueueConsumers = require('./src/queue');
 
 config({path: '.env'});
 
@@ -17,6 +18,10 @@ const DB = process.env.MONGO_DATABASE.replace(
 );
 
 connect(DB).then(async () => {
+
+  await initializeQueueConsumers();
+  console.log('✅ RabbitMQ Consumers inicializados');
+  
   console.log('Conexión a la base de datos exitosa');
 });
 
