@@ -21,9 +21,10 @@ message User {
 
 message ListInput {
     string userId = 1;
-    string email = 2;
-    string name = 3;
-    string lastName = 4;
+    string userEmail = 2;
+    string email = 3;
+    string name = 4;
+    string lastName = 5;
 }
 
 message UserInput {
@@ -39,16 +40,18 @@ message UserInput {
 
 message UserUpdateInput {
     string userId = 1;
-    string id = 2;
-    string name = 3;
-    string lastName = 4;
-    string email = 5;
-    string password = 6;
+    string userEmail = 2;
+    string id = 3;
+    string name = 4;
+    string lastName = 5;
+    string email = 6;
+    string password = 7;
 }
 
 message UserId {
   string userId = 1;
-  string id = 2;
+  string userEmail = 2;
+  string id = 3;
 }
 
 message UserList {

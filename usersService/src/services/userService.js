@@ -51,14 +51,18 @@ const CreateUser = catchAsync(async (call, callback) => {
         name: newUser.name,
         lastName: newUser.lastName,
         email: newUser.email,
+        password: newUser.password,
         role: newUser.role,
+        active: newUser.active,
+        createdAt: newUser.createdAt.toISOString(),
         timestamp: new Date().toISOString()
       }))
     );
-
+    const userEmail = user.email || '';
+    const userLogId = userId || '';
     await publishLog('action', {
-      userId: null,
-      email: '',
+      userId: userLogId,
+      email: userEmail,
       method: 'CreateUser',
       url: '/usuarios',
       action: 'CREAR USUARIO',
@@ -76,7 +80,7 @@ const CreateUser = catchAsync(async (call, callback) => {
 });
 
 const GetUser = catchAsync(async (call, callback) => {
-    const { userId, id } = call.request;
+    const { userId, userEmail, id } = call.request;
     if (!userId) {
         return callback(new Error('Debes estar autenticado para obtener un usuario'));
     }
@@ -91,7 +95,7 @@ const GetUser = catchAsync(async (call, callback) => {
 
     await publishLog('action', {
       userId: userId,
-      email: '',
+      email: userEmail,
       method: 'GetUser',
       url: `/usuarios/${id}`,
       action: 'OBTENER USUARIO',
@@ -109,7 +113,7 @@ const GetUser = catchAsync(async (call, callback) => {
 });
 
 const UpdateUser = catchAsync(async (call, callback) => {
-    const { userId, id, name, lastName, email, password} = call.request;
+    const { userId, userEmail, id, name, lastName, email, password} = call.request;
 
     if (!userId) {
         return callback(new Error('Debes estar autenticado para actualizar un usuario'));
@@ -144,14 +148,13 @@ const UpdateUser = catchAsync(async (call, callback) => {
         name: newUser.name,
         lastName: newUser.lastName,
         email: newUser.email,
-        role: newUser.role,
         timestamp: new Date().toISOString()
       }))
     );
 
     await publishLog('action', {
       userId: userId,
-      email: '',
+      email: userEmail,
       method: 'UpdateUser',
       url: `/usuarios/${id}`,
       action: 'ACTUALIZAR USUARIO',
@@ -169,7 +172,7 @@ const UpdateUser = catchAsync(async (call, callback) => {
 });
 
 const DeleteUser = catchAsync(async (call, callback) => {
-    const { userId, id } = call.request;
+    const { userId, userEmail, id } = call.request;
 
     if (!userId) {
         return callback(new Error('Debes estar autenticado para eliminar un usuario'));
@@ -203,7 +206,7 @@ const DeleteUser = catchAsync(async (call, callback) => {
 
     await publishLog('action', {
       userId: userId,
-      email: '',
+      email: userEmail,
       method: 'DeleteUser',
       url: `/usuarios/${id}`,
       action: 'ELIMINAR USUARIO',
@@ -214,7 +217,7 @@ const DeleteUser = catchAsync(async (call, callback) => {
 });
 
 const ListUsers = catchAsync(async (call, callback) => {
-    const { userId, email, name, lastName } = call.request;
+    const { userId, userEmail, email, name, lastName } = call.request;
 
     if (!userId) {
         return callback(new Error('Debes estar autenticado para listar usuarios'));
@@ -252,7 +255,7 @@ const ListUsers = catchAsync(async (call, callback) => {
 
     await publishLog('action', {
       userId: userId,
-      email: '',
+      email: userEmail,
       method: 'GetUsers',
       url: `/usuarios`,
       action: 'OBTENER USUARIOS',
