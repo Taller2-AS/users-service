@@ -3,22 +3,27 @@ const { getChannel } = require('../config/connection');
 const usersConsumer = async () => {
   const channel = await getChannel();
 
+  // 👇 Asegurarse que la cola existe antes de consumir
+  await channel.assertQueue('user-events-queue', { durable: true });
+
   channel.consume('user-events-queue', async (msg) => {
     if (!msg) return;
 
     try {
       const content = JSON.parse(msg.content.toString());
 
-      if (content.event !== 'USER_CREATED') {
-        console.log('Usuario creado:', content.videoId);
-      }
-
-      if (content.event !== 'USER_UPDATED') {
-        console.log('Usuario actualizado:', content.videoId);
-      }
-
-      if (content.event !== 'USER_DELETED') {
-        console.log('Usuario eliminado:', content.videoId);
+      switch (content.event) {
+        case 'USER_CREATED':
+          console.log('👤 Usuario creado:', content);
+          break;
+        case 'USER_UPDATED':
+          console.log('🔄 Usuario actualizado:', content);
+          break;
+        case 'USER_DELETED':
+          console.log('❌ Usuario eliminado:', content);
+          break;
+        default:
+          console.log('📦 Evento no reconocido:', content.event);
       }
 
       channel.ack(msg);

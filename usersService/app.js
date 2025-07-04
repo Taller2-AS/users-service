@@ -9,13 +9,14 @@ config({path: '.env'});
 
 const server = new Server();
 
-const DB = process.env.MONGO_DATABASE.replace(
-    '<PASSWORD>', 
-    process.env.MONGO_PASSWORD
-).replace(
-    '<USER>', 
-    process.env.MONGO_USER
-);
+if (!process.env.MONGO_DATABASE || !process.env.MONGO_USER || !process.env.MONGO_PASSWORD) {
+  console.error('❌ Variables de entorno de Mongo no definidas correctamente');
+  process.exit(1);
+}
+
+const DB = process.env.MONGO_DATABASE
+  .replace('<PASSWORD>', process.env.MONGO_PASSWORD)
+  .replace('<USER>', process.env.MONGO_USER);
 
 connect(DB).then(async () => {
 
@@ -28,12 +29,15 @@ connect(DB).then(async () => {
 const usersProto = loadProto('users');
 server.addService(usersProto.Users.service, UsersService);
 
-server.bindAsync(`${process.env.SERVER_URL}:${process.env.SERVER_PORT}`, ServerCredentials.createInsecure(), (error, port) => {
-    if (error) {
-        console.error('Error al iniciar el servidor:', error);
-        return;
-    }
-    console.log(`Servidor escuchando en ${process.env.SERVER_URL}:${process.env.SERVER_PORT}`);
+const SERVER_URL = process.env.SERVER_URL || '0.0.0.0';
+const SERVER_PORT = process.env.SERVER_PORT || '50057';
+
+server.bindAsync(`${SERVER_URL}:${SERVER_PORT}`, ServerCredentials.createInsecure(), (error, port) => {
+  if (error) {
+    console.error('Error al iniciar el servidor:', error);
+    return;
+  }
+  console.log(`🚀 Servidor gRPC escuchando en ${SERVER_URL}:${SERVER_PORT}`);
 });
 
 
