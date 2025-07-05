@@ -1,17 +1,32 @@
 services:
+  user-service:
+    build: .
+    container_name: users-service
+    ports:
+      - "50057:50057"
+    environment:
+      MONGO_DATABASE: mongodb://admin:root@mongodb:27017/users-db
+      MONGO_USER: admin
+      MONGO_PASSWORD: root
+      RABBITMQ_URL: amqp://admin:admin@rabbitmq:5672
+      SERVER_URL: 0.0.0.0
+      SERVER_PORT: 50057
+    depends_on:
+      - mongodb
+      - rabbitmq
+
   mongodb:
     image: mongo:latest
-    container_name: mongodb-astaller2
-    restart: always
+    container_name: mongodb
     environment:
       MONGO_INITDB_ROOT_USERNAME: admin
       MONGO_INITDB_ROOT_PASSWORD: root
     ports:
-      - "27018:27018"
+      - "27017:27017"
+
   rabbitmq:
     image: rabbitmq:3-management
     container_name: rabbitmq
-    restart: always
     environment:
       RABBITMQ_DEFAULT_USER: admin
       RABBITMQ_DEFAULT_PASS: admin
